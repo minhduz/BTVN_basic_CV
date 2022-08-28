@@ -1,0 +1,148 @@
+*{
+    margin :0;
+    padding :0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #4077ad;
+}
+.a4{
+    width: 895px;
+    height: 1300px;
+    background: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+.personal {
+    display: flex;
+    flex-direction: column;
+    width: 310px;
+}
+.personal .image{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+}.personal .image span{
+    margin-left: 30px;
+    width: 40px;
+    height: 120px;
+    background: #e6f1fd;
+    padding-top: 40px;
+    color: #e6f1fd;
+ }
+.personal .job{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+
+}
+.personal .job h4{
+    background: #e6f1fd;
+    border-radius: 25px;
+    padding: 5px 15px 5px 15px;
+}
+.personal .job .fa{
+    padding: 5px 5px 5px 0px;
+    font-size: 25px;
+}
+.personal{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.personal img{
+    border-radius: 10px;
+}
+.personal h2{
+    margin-left: 22px;
+}
+.personal h3{
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.contact table{
+    margin: 20px;
+    padding-right: 30px;
+}
+.contact table th{
+    padding-left: 10px;
+    text-align: left;
+    font-weight: normal;
+    border: 5px solid white;
+    border-radius: 10px
+}
+.contact table td {
+    color: white;
+    background: #4077ad;
+    padding: 1px 5px 1px 5px;
+    border: 5px solid white;
+    border-radius: 10px
+}
+#phone{
+    margin-left: 4px;
+}
+.skills ul{
+    margin-top: 10px;
+    margin-left: 50px;
+    padding: 10px 0 10px 30px;
+    list-style-type: none;
+
+    background: #dedede;
+    border-radius: 5px;
+    width: 200px;
+}
+.skills ul li{
+    padding-top: 5px;
+}
+#java{
+    list-style-type: disc;
+}
+.study{
+    width: 530px;
+}
+.study h3{
+    margin-left: 20px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+.university{
+    margin-left: 25px;
+    margin-top: 15px;
+    padding: 15px 15px 15px 15px;
+    background: #eeeeee;
+    border-radius: 5px;
+}
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.study .university .main_title{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.study .university ul{
+    padding-left: 20px;
+}
+.year{
+    background: #e6f1fd;
+    padding: 5px 10px 5px 10px;
+    border-radius: 25px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    width: 870px;
+    height: 150px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 12px;
+    color: black;
+}
+
+
